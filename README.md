@@ -29,10 +29,19 @@ The folder structure is as follows:
 
 # Create your own test functions: 
 ```
-function test() {
-  console.log("notice the blank line before this function?");
-}
+def test_add(self):
+        self.assertEqual(Cal.get_calc(4,4,'addition'),8)
 ```
+The above code snippet shows the testing done for the addition function.
+Here assertEqual checks if 'addition' of 4 and 4 is 8?
+If yes, it runs and provides the pass condition
+
+``` def create_your_own_functionname(self):
+         self.assertEqual(Cal.get_cal(x,y,'operation'),Expected value)
+```
+To create your own test function, pass in the function name,x,y and any operator in any case-senstive manner.
+Then pass in the expected value.
+If the operation and expected value are the same,you will get a test pass messsage or else, it will show an error message.
 
 # Review results
 The results.xlsx file shows the correct answers to the input sample calculated by Cal.py
