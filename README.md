@@ -36,8 +36,9 @@ The above code snippet shows the testing done for the addition function.
 Here assertEqual checks if 'addition' of 4 and 4 is 8?
 If yes, it runs and provides the pass condition
 
-``` def create_your_own_functionname(self):
-         self.assertEqual(Cal.get_cal(x,y,'operation'),Expected value)
+```
+def create_your_own_functionname(self):
+        self.assertEqual(Cal.get_cal(x,y,'operation'),Expected value)
 ```
 To create your own test function, pass in the function name,x,y and any operator in any case-senstive manner.
 Then pass in the expected value.
