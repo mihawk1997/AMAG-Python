@@ -1,5 +1,5 @@
 # AMAG-Python
-Python coding challenge
+Python coding challenge - AMAG
 
 # Introduction
 The project involves building a simple calculator which performs actions based on basic operations like Addition,Subtraction,Multiplication and division.
@@ -46,4 +46,7 @@ If the operation and expected value are the same,you will get a test pass messsa
 
 # Review results
 The results.xlsx file shows the correct answers to the input sample calculated by Cal.py
+
+# Credits
+Sample data : AMAG group
 
