@@ -27,3 +27,5 @@ The folder structure is as follows:
 1. You can run the unit_test.py from the unit test folder to see various test coniditons.
 2. You can also modify and add your own test conditions.
 
+# Review results
+The results.xlsx file shows the correct answers to the input sample calculated by Cal.py
